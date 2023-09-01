@@ -1,6 +1,6 @@
 .moe-top-bar {
     -fx-padding: 0.75em 1em 0.75em 1em;
-    -fx-background-color: hsb(0, 0%, 50%), rgb(225, 225, 225);
+    -fx-background-color: hsb(0, 0%, 10%), rgb(30, 34, 39); /* modified */
     -fx-background-insets: 0 0 0 0, 0 0 1 0;
 }
 .moe-top-bar-buttons {
@@ -12,7 +12,7 @@
     -fx-label-padding: 0 0.3em 0 0.3em;
 }
 .moe-bottom-bar {
-    -fx-background-color: hsb(0, 0%, 50%), rgb(225, 225, 225);
+    -fx-background-color: hsb(0, 0%, 10%), rgb(30, 34, 39); /* modified */
     -fx-background-insets: 0 0 0 0, 1 0 0 0;
 }
 .moe-bottom-status-row {
@@ -76,7 +76,7 @@
     -fx-alignment: center-right;
     -fx-graphic-text-gap: 0;
     -fx-label-padding: 0 2 0 0;
-    -fx-background-color: gray, rgb(255, 255, 255);
+    -fx-background-color: rgb(30, 34, 39), rgb(30, 34, 39); /* modified */
     /* Note there is an inset of 3 pixels to right of this item,
       but it's added in code */
 }
@@ -104,11 +104,11 @@
     -fx-min-width: 0;
     -fx-pref-width: 0;
     -fx-max-width: 0;
-    -fx-background-color: white;
+    -fx-background-color: rgb(30, 34, 39); /* modified */
     -fx-background-insets: 0;
 }
 .moe-editor-pane:bj-uncompiled .moe-line-label {
-    -fx-background-color: gray, hsb(0, 0%, 75%);
+    -fx-background-color: gray, hsb(0, 0%, 35%); /* modified */
     -fx-background-insets: -1 0 -1 0, -1 1 -1 0;
 }
 .moe-line-label:bj-breakpoint, .moe-line-label:bj-step-mark {
@@ -138,7 +138,7 @@
 }
 /* Don't show when printing */
 .moe-editor-pane:bj-screen .moe-bracket-highlight {
-    -rtfx-background-color: hsb(0, 0%, 70%);
+    -rtfx-background-color: hsb(0, 0%, 20%); /* modified */
 }
 
 /* colors are in java-colors.css */

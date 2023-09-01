@@ -1,6 +1,6 @@
 .flow-top-bar {
     -fx-padding: 0.75em 1em 0.75em 1em;
-    -fx-background-color: hsb(0, 0%, 50%), rgb(225, 225, 225);
+    -fx-background-color: hsb(0, 0%, 50%), rgb(30, 34, 39); /* modified */
     -fx-background-insets: 0 0 0 0, 0 0 1 0;
 }
 .flow-top-bar-buttons {
@@ -12,21 +12,21 @@
     -fx-label-padding: 0 0.3em 0 0.3em;
 }
 .margin-and-text-line {
-    -fx-background-color: white;
+    -fx-background-color: rgb(35, 39, 46); /* modified */
     -fx-cursor: text;
 }
 .flow-margin-line {
-    -fx-stroke: grey;
+    -fx-stroke: rgb(35, 39, 46); /* modified */
 }
 .flow-margin-background {
-    -fx-background-color: white;
+    -fx-background-color: rgb(35, 39, 46); /* modified */
     -fx-cursor: default;
 }
 .margin-and-text-line:bj-margin-uncompiled .flow-margin-background {
-    -fx-background-color: hsb(0, 0%, 75%);
+    -fx-background-color: rgb(30, 34, 39); /* modified */
 }
 .margin-and-text-line:bj-margin-error .flow-margin-background {
-    -fx-background-color: hsb(0, 70%, 50%);
+    -fx-background-color: rgb(186, 0, 50); /* modified */
 }
 .moe-breakpoint-icon, .moe-step-mark-icon {
     -fx-cursor: default;
@@ -36,11 +36,11 @@
     -fx-alignment: center-right;
     -fx-graphic-text-gap: 0;
     -fx-label-padding: 0 2 0 0;
-    -fx-text-fill: black;
+    -fx-text-fill: rgb(171, 178, 191); /* modified */
     -fx-cursor: default;
 }
 .margin-and-text-line:bj-margin-error .flow-line-label {
-    -fx-text-fill: white;
+    -fx-text-fill: rgb(255, 255, 255);
 }
 .text-line .flow-selection {
     -fx-fill: hsb(211, 50%, 90%);
@@ -51,7 +51,7 @@
     -fx-stroke: null;
 }
 .text-line .flow-bracket-match {
-    -fx-fill: hsb(0, 0%, 70%);
+    -fx-fill: hsb(0, 0%, 30%);  /* modified */
     -fx-stroke: null;
 }
 

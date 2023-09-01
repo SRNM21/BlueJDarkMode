@@ -1,5 +1,5 @@
 .tabbed-editor > .tab-header-area > .tab-header-background {
-    -fx-background-color: hsb(0, 0%, 50%);
+    -fx-background-color: rgb(35, 39, 46);
 }
 
 .tabbed-editor > .tab-header-area .tab {

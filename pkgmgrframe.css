@@ -1,15 +1,15 @@
 .root {
-    class-target: rgb(239, 204, 149);
-    test-target: rgb(166, 191, 137);
-    css-target: rgb(197, 205, 206);
-    text-target: rgb(197, 205, 206);
-    externalfile-target: rgb(156, 220, 240);
-    window-background: rgb(229, 229, 229);
-    class-diagram: rgb(249,247,242);
-    object-bench: rgb(239,237,232);
-    codepad: rgb(239,237,232);
-    codepad-input: rgb(249,247,242);
-    pane-border-color: gray;
+    class-target: rgb(213, 95, 222); /* modified */
+    test-target: rgb(137, 202, 120); /* modified */
+    css-target: rgb(127, 132, 142); /* modified */
+    text-target: rgb(230, 230, 230); /* modified */
+    externalfile-target: rgb(99, 203, 235); /* modified */
+    window-background: rgb(30, 34, 39); /* modified */
+    class-diagram: rgb(35, 39, 46); /* modified */
+    object-bench: rgb(35, 39, 46); /* modified */
+    codepad: rgb(35, 39, 46); /* modified */
+    codepad-input: rgb(35, 39, 46); /* modified */
+    pane-border-color: rgb(65, 68, 72); /* modified */
 }
 
 .pmf-root {
@@ -17,7 +17,7 @@
     -fx-padding: 10px 10px 4px 10px;
     -fx-background-color: window-background;
 }
-.split-pane {
+.split-pane { 
     -fx-padding: 0;
     -fx-background-insets: 20;
     -fx-background-color: window-background;
@@ -46,13 +46,13 @@
 
 .triangle-arrow {
     -fx-cursor: hand;
-    -fx-fill: darkgray;
+    -fx-fill: rgb(171, 178, 191); /* modified */
 }
 .triangle-arrow:hover {
-    -fx-fill: derive(darkgray, 20%);
+    -fx-fill: derive(rgb(171, 178, 191), 20%); /* modified */
 }
 .pmf-triangle-foldout-wrapper:bj-hover-long {
-    -fx-background-color: white;
+    -fx-background-color: rgb(30, 34, 39); /* modified */
     -fx-cursor: hand;
 }
 
@@ -104,11 +104,11 @@
 .machine-icon-bar-holder {
     -fx-border-width: 1;
     -fx-border-style: solid inside;
-    -fx-border-color: rgb(190, 190, 190);
+    -fx-border-color: rgb(65, 68, 72); /* modified */
     -fx-border-radius: 4;
 }
 .machine-icon-bar:bj-active {
-    -fx-stroke: lightgray;
+    -fx-stroke: rgb(65, 68, 72); /* modified */
     -fx-fill: navy;
 }
 .machine-icon-bar {
@@ -127,7 +127,7 @@
 }
 .reset-vm-button-arrow {
     -fx-stroke-width: 2;
-    -fx-stroke: rgb(140, 140, 140);
+    -fx-stroke: rgb(171, 178, 191); /* modified */
 }
 
 .test-status-message {
@@ -213,10 +213,10 @@
     -fx-font-style: italic;
 }
 .package-target, .package-target:bj-resizing, .package-target:bj-resizing:hover {
-    -fx-background-color: rgb(189, 133, 170);
+    -fx-background-color: rgb(209, 152, 102); /* modified */
 }
 .package-target:hover {
-    -fx-background-color: derive(rgb(189, 133, 170), 25%);
+    -fx-background-color: derive(rgb(209, 152, 102), 25%); /* modified */
 }
 .marquee {
     -fx-stroke-width: 2;
@@ -277,20 +277,20 @@
     -fx-padding: 2;
 }
 .codepad-history:focused {
-    -fx-background-color: black, codepad;
+    -fx-background-color: rgb(171, 178, 191), codepad; /* modified */
     -fx-background-insets: 0, 2;
     -fx-background-radius: 5px, 6px;
 }
 
 .codepad-row {
-    -fx-text-fill: black;
+    -fx-text-fill: rgb(171, 178, 191);
     -fx-wrap-text: false;
     -fx-background-color: codepad;
     -fx-background-radius: 5px;
     -fx-padding: 4px 0px 0px 10px;
 }
 .codepad-history:focused .codepad-row:selected {
-    -fx-background-color: lightblue;
+    -fx-background-color: rgb(171, 178, 191);
 }
 .codepad-row:bj-codepad-error {
     -fx-text-fill: hsb(355, 95%, 50%);
@@ -314,13 +314,14 @@
     -fx-background-color: linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
             linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
        And here's our translation to use our background colour:*/
-    -fx-background-color: lightgray, codepad-input;
+    -fx-background-color: rgb(171, 178, 191), codepad-input;
     -fx-background-radius: 5px, 6px;
 }
 .codepad .text-field:focused {
-    -fx-background-color: black, codepad-input;
+    -fx-background-color: rgb(171, 178, 191), codepad-input;
     -fx-background-radius: 5px, 6px;
     -fx-background-insets: 0, 2;
+    -fx-text-fill: rgb(171, 178, 191); /* added */
 }
 
 .codepad-add-object-arrow {
