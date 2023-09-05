@@ -277,7 +277,7 @@
     -fx-padding: 2;
 }
 .codepad-history:focused {
-    -fx-background-color: rgb(171, 178, 191), codepad; /* modified */
+    -fx-background-color: rgb(35, 39, 46), codepad; /* modified */
     -fx-background-insets: 0, 2;
     -fx-background-radius: 5px, 6px;
 }
@@ -290,7 +290,7 @@
     -fx-padding: 4px 0px 0px 10px;
 }
 .codepad-history:focused .codepad-row:selected {
-    -fx-background-color: rgb(171, 178, 191);
+    -fx-background-color: rgb(35, 39, 46); /* modified */
 }
 .codepad-row:bj-codepad-error {
     -fx-text-fill: hsb(355, 95%, 50%);
@@ -314,11 +314,11 @@
     -fx-background-color: linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
             linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
        And here's our translation to use our background colour:*/
-    -fx-background-color: rgb(171, 178, 191), codepad-input;
+    -fx-background-color: rgb(35, 39, 46), codepad-input; /* modified */
     -fx-background-radius: 5px, 6px;
 }
 .codepad .text-field:focused {
-    -fx-background-color: rgb(171, 178, 191), codepad-input;
+    -fx-background-color: rgb(35, 39, 46), codepad-input; /* modified */
     -fx-background-radius: 5px, 6px;
     -fx-background-insets: 0, 2;
     -fx-text-fill: rgb(171, 178, 191); /* added */

@@ -93,41 +93,53 @@
 /* About BlueJ/Greenfoot dialog */
 .about-dialog-content {
     -fx-padding: 1em;
-    -fx-background-color: white;
+    -fx-background-color: rgb(30, 34, 39); /* modified */
+    -fx-text-fill: rgb(171, 178, 191); /* added */
 }
 .about-team {
     -fx-padding: 0 0 1em 0;
+    -fx-text-fill: rgb(171, 178, 191); /* added */
 }
 .about-tabs > .tab-header-area > .tab-header-background {
-    -fx-background-color: white;
+    -fx-background-color: rgb(30, 34, 39); /* modified */
+    -fx-text-fill: rgb(171, 178, 191); /* added */
 }
 .about-more-info {
     -fx-padding: 1em 0 0 0;
+    -fx-text-fill: rgb(171, 178, 191); /* added */
 }
 .about-debuglog {
     -fx-padding: 1em 0 0 0;
     -fx-spacing: 2em;
+    -fx-text-fill: rgb(171, 178, 191); /* added */
 }
 .about-version {
     -fx-font-weight: bold;
     -fx-padding: 0 0 1em 0;
+    -fx-text-fill: rgb(171, 178, 191); /* added */
 }
 .about-info-link {
     -fx-padding: 1em 0 0 0;
+    -fx-text-fill: rgb(171, 178, 191); /* added */
 }
 .about-translators-table {
     -fx-padding: 1em 0.5em 0 0.5em;
+    -fx-background-color: rgb(30, 34, 39); /* added */
 }
 .about-translators-table .column-header-background {
     -fx-max-height:  0;
     -fx-pref-height: 0;
     -fx-min-height:  0;
+    -fx-background-color: rgb(30, 34, 39); /* added */
 }
 .about-translators-table .table-row-cell:empty {
-    -fx-background-color: transparent;
+    -fx-background-color: rgb(30, 34, 39); /* modified */
+    -fx-text-fill: rgb(171, 178, 191); /* added */
 }
 .about-translators-table .table-row-cell .table-cell {
     -fx-border-width: 0px;
+    -fx-text-fill: rgb(171, 178, 191); /* added */
+    -fx-background-color: rgb(30, 34, 39); /* added */
 }
 .about-contributors-title {
     -fx-font-weight: bold;

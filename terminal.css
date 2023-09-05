@@ -7,19 +7,19 @@
     -fx-orientation: vertical;
 }
 .terminal-output {
-    -fx-fill: black;
-    -fx-background-color: white;
+    -fx-fill: rgb(171, 178, 191);
+    -fx-background-color: rgb(35, 39, 46); /* modified */
     -fx-cursor: text;
 }
 .terminal-input {
-    -fx-fill: blue;
+    -fx-fill: rgb(137, 202, 120);
 }
 .terminal-method-record {
     -fx-fill: brown;
 }
 .terminal-error {
-    -fx-fill: red;
-    -fx-background-color: white;
+    -fx-fill: rgb(255, 55, 55);
+    -fx-background-color: rgb(35, 39, 46); /* modified */
     -fx-cursor: text;
 }
 .terminal-output .flow-selection, .terminal-error .flow-selection {
@@ -42,5 +42,5 @@
 
 /* Slightly darker than white to make input field stand out: */
 .terminal, .terminal-error {
-    -fx-background-color: rgb(251, 251, 251);
+    -fx-background-color: rgb(35, 39, 46); /* modified */
 }

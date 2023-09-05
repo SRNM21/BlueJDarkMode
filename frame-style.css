@@ -542,7 +542,7 @@
 
 .override-button {
     -fx-background-color: hsb(60, 35%, 95%);
-    -fx-border-color: rgb(230, 230, 230);
+    -fx-border-color: rgb(171, 178, 191);
 }
 
 .debug-border {
